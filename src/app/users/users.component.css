@@ -1,0 +1,8 @@
+.user-listing {
+  margin: 0 auto;
+}
+
+.button.is-link {
+  font-size: 0.75rem;
+  float: right;
+}

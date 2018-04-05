@@ -1,16 +1,4 @@
-<div class="column is-half" *ngIf="users.length">
-  <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let user of users">
-        <td>{{user.id}}</td>
-        <td>{{user.name}}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="container">
+  <h1>{{title}}</h1>
+</section>
+<app-users></app-users>
