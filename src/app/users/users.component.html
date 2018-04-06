@@ -1,6 +1,6 @@
 <section class="container">
-  <section class="columns">
-    <div class="column is-half user-listing">
+  <div class="columns">
+    <div class="column is-half">
       <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
         <thead>
           <tr>
@@ -13,15 +13,14 @@
             <td>{{user.id}}</td>
             <td>
               <a (click)="setSelectedUser(user)">{{user.name}}</a>
-              <a class="button is-link">Edit</a>
             </td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div class="column">
+    <div class="column is-half">
       <app-user-detail [user]="selectedUser"></app-user-detail>
     </div>
-  </section>
+  </div>
 </section>

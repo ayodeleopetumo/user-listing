@@ -1,8 +1,36 @@
-.user-listing {
-  margin: 0 auto;
-}
-
 .button.is-link {
   font-size: 0.75rem;
   float: right;
+}
+
+.media-content p {
+  margin-bottom: 0.5rem;
+}
+
+.media-content input {
+  height: 2.5rem;
+  width: 80%;
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+.title:not(.is-spaced) + .subtitle {
+  margin-top: 0;
+}
+
+.is-7 {
+  font-size: 0.875rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.show-inline {
+  width: 80%;
+  display: inline-block;
 }
