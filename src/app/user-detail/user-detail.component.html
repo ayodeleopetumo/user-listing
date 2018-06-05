@@ -15,7 +15,7 @@
         <p class="title is-4">
           <label [ngClass]="edit ? 'hide' : 'show-inline'">{{user.name}}</label>
           <input [(ngModel)]="user.name" [ngClass]="edit ? 'show-inline' : 'hide'" placeholder="name" value="user.name" />
-          <a class="button is-link" (click)="toggleEdit($event)">Edit</a>
+          <a class="button is-link" (click)="toggleEdit($event)">{{ edit ? 'Done' : 'Edit' }}</a>
         </p>
         <p class="subtitle is-7">@{{user.username}}</p>
         <p class="subtitle is-7">{{user.email}}</p>

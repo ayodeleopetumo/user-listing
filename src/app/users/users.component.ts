@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { UsersService } from '../users.service';
 import { UserDetailComponent } from '../user-detail/user-detail.component';
 
@@ -23,10 +24,6 @@ export class UsersComponent implements OnInit {
   }
 
   setSelectedUser(user): void {
-    this.selectedUser = null;
-
-    setTimeout(() => {
-      this.selectedUser = user;
-    }, 500);
+    this.selectedUser = user;
   }
 }
